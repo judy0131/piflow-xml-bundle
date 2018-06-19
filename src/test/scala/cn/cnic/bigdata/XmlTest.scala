@@ -24,7 +24,7 @@ class XmlTest {
       .config("spark.driver.memory", "1g")
       .config("spark.executor.memory", "2g")
       .config("spark.cores.max", "2")
-      .config("spark.jars","/opt/project/piflow-xml-bundle/out/artifacts/piflow_xml_bundle/piflow-xml-bundle.jar")
+      .config("spark.jars","/opt/project/piflow-xml-bundle/out/artifacts/piflow-xml-bundle/piflow-xml-bundle.jar")
       .enableHiveSupport()
       .getOrCreate()
 
